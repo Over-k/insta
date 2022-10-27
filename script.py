@@ -65,7 +65,7 @@ def parse_args():
     return parser.parse_args()
 
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument(r"--user-data-dir=C:\Users\MON PC\AppData\Local\Google\Chrome\User Data\Default") # Path to your chrome profile or you can open chrome and type: "chrome://version/" on URL
+chrome_options.add_argument(r"--user-data-dir=C:\Users\Name\AppData\Local\Google\Chrome\User Data\Default") # Path to your chrome profile or you can open chrome and type: "chrome://version/" on URL
 chrome_driver_exe_path = abspath("C:\Python310\chromedriver.exe") # download from https://chromedriver.chromium.org/downloads
 assert path.exists(chrome_driver_exe_path), 'chromedriver.exe not found!'
 
