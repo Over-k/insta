@@ -1,0 +1,6 @@
+argparse
+selenium
+tabulate
+json
+re
+os
