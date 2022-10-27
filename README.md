@@ -1,12 +1,12 @@
 # Insta -k
 A Simple Script Written in Python by : **khaled ait miloud (@khaled_aitmiloud)**
-This Script will find random users related by your custom tags to follow or send a message.
+This Script will find random users  based by your custom tags to follow or send a message.
 
 ## Deployment
 ### Pre-requisits:
 - Install Python3 (Python 3.7.3) with pip3
 ### Quick Setup
-- Clone the repository: `git clone https://github.com/over-k/instabot.git`
+- Clone the repository: `git clone https://github.com/Over-k/insta.git`
 - Install pip requirements: `pip3 install -r requirements.txt`
 ### Configuration
 - After simply downloading this repository, open **script.py** , you’ll have to change some lines.
@@ -14,7 +14,8 @@ This Script will find random users related by your custom tags to follow or send
 `chrome_options.add_argument(r"--user-data-dir=C:\Users\Name\AppData\Local\Google\Chrome\User Data\Default")`
 - 2. download from https://chromedriver.chromium.org/downloads, If you have correctly downloaded Chromedriver, change the path to your chromedriver file.
  `chrome_driver_exe_path = abspath("C:\Python\chromedriver.exe")`
-- These two lines are designed to save your authenticated on Instagram. Basically change `python3 script.py -u your_username -p your_password` to your Instagram credentials.
+- These two lines are designed to save your authenticated on Instagram.
+ - Basically change `python3 script.py -u your_username -p your_password` to your Instagram credentials.
 
 ### Run the program
 - Example: `python3 script.py -u your_username -p your_password  -t python -sc 30 -img True`
