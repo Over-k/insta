@@ -188,6 +188,9 @@ def start():
      sleep(2)
     except:
         warning += "\n-You can not send message to @"+i
+        web.find_element(by=By.XPATH, value='/html/body/div[1]/div/div/div/div[2]/div/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/button').click() 
+        sleep(1)
+        web.find_element(by=By.XPATH, value='/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/section/div/div[2]/div/div/div[1]/div[1]/div/div[3]/button').click()
         pass
 
 
